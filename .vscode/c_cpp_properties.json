@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\iman\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed\\1.1.3\\**",
+                "C:\\Users\\iman\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\**",
+                "C:\\Users\\iman\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\**",
+                "C:\\Users\\iman\\Documents\\Arduino\\libraries\\RingBuffer\\src",
+                "C:\\Users\\iman\\Documents\\Arduino\\libraries\\TaskScheduler\\src",
+                "C:\\Users\\iman\\Documents\\Arduino\\libraries\\Slip\\**",
+                "C:\\Users\\iman\\Documents\\Arduino\\libraries\\SoftwareSerial\\**"
+            ],
+            "defines": [
+                "F_CPU=84000000L",
+                "ARDUINO=10810",
+                "ARDUINO_SAM_DUE",
+                "__SAM3X8E__",
+                "USB_VID=0x2341",
+                "USB_PID=0x003e",
+                "USBCON",
+                "USB_MANUFACTURER=\"Arduino LLC\"",
+                "USB_PRODUCT=\"Arduino Due\""
+            ],
+            "forcedInclude": [
+                "C:\\Users\\iman\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.12\\cores\\arduino\\Arduino.h"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "\"C:\\Users\\iman\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1\\bin\\arm-none-eabi-g++\" -mcpu=cortex-m3 -mthumb",
+            "cStandard": "c11",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}
